@@ -1,0 +1,27 @@
+{
+  "description": "Add these scripts to your package.json file",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "@types/jest": "^29.5.11",
+    "@testing-library/react": "^14.1.2",
+    "@testing-library/jest-dom": "^6.1.5",
+    "@testing-library/user-event": "^14.5.1",
+    "identity-obj-proxy": "^3.0.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:verbose": "jest --verbose",
+    "test:specific": "jest --testPathPattern="
+  },
+  "instructions": [
+    "1. Run: npm install --save-dev jest ts-jest @types/jest",
+    "2. Run: npm install --save-dev @testing-library/react @testing-library/jest-dom @testing-library/user-event",
+    "3. Run: npm install --save-dev identity-obj-proxy",
+    "4. Add the scripts above to your package.json",
+    "5. Run: npm test to run all tests",
+    "6. Run: npm run test:coverage to see coverage report"
+  ]
+}
