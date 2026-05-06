@@ -1,11 +1,44 @@
+<h1 align="center">⌚ Watch E-Commerce Website</h1>
 
-  # Luxury E-commerce Watch Website
+<p align="center">
+Modern and responsive watch retail website built using React and Firebase.
+</p>
 
-  This is a code bundle for Luxury E-commerce Watch Website. The original project is available at https://www.figma.com/design/DNnvnBO78ZpP2TbS3keIbR/Luxury-E-commerce-Watch-Website.
+---
 
-  ## Running the code
+# 🛠️ Tech Stack
 
-  Run `npm i` to install the dependencies.
+- React.js
+- Firebase
+- Tailwind CSS
+- Node.js
 
-  Run `npm run dev` to start the development server.
-  
+---
+
+# ⚙️ Installation & Setup
+
+## Install Dependencies
+
+```bash
+npm install
+```
+
+---
+
+# ▶️ Run The Project
+
+```bash
+npm run dev
+```
+
+---
+
+# 🔥 Firebase
+
+Configure your Firebase credentials before running the project.
+
+---
+
+<p align="center">
+✨ Built using modern web technologies ✨
+</p>
