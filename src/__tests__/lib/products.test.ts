@@ -1,7 +1,7 @@
 import { getAllProducts } from '../../lib/products';
 // We mock the SOURCE of the re-export
 import * as firestoreModule from '../../lib/firebase/firestore';
-
+// We mock the SOURCE of the re-export
 jest.mock('../../lib/firebase/firestore', () => ({
   getAllProducts: jest.fn(),
 }));
